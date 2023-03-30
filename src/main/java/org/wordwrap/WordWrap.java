@@ -11,8 +11,7 @@ public class WordWrap {
         if (!(columnsNumber > originalText.length())) {
             var transformTextPartOne = originalText.substring(0,2);
             var transformTextPartTwo = originalText.substring(2);
-            var transformText = transformTextPartOne + "\n" + transformTextPartTwo;
-            return transformText;
+            return transformTextPartOne + "\n" + transformTextPartTwo;
         }
         return originalText;
     }
