@@ -7,6 +7,6 @@ public class WordWrap {
     }
 
     public static String TransformTextWithConsole(String originalText) {
-        return "0";
+        return "";
     }
 }
